@@ -3,10 +3,18 @@ public class App {
 
         // Conditional Structure
         boolean suspended = false;
+        boolean holiday = true;
+        
 
         if (suspended) {
             System.out.println("I will stay at home.");
-        } else {
+        }
+        
+        else if (holiday) {
+             System.out.println("I will spend time with my family.");
+        }
+        
+         else {
             // Step 1
             rideJeep();
 
@@ -22,6 +30,8 @@ public class App {
             // Step 5
             walk();
         }
+        
+    
 
     }
 
