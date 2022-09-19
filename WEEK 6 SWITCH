@@ -1,0 +1,34 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        String today = "dfgafgah";
+
+        switch (today) {
+            case "monday":
+                System.out.println("I will go to school early since it's my F2F day.");
+                break;
+            case "tuesday":
+                System.out.println("I will attend my online classes and rest after.");
+                break;
+            case "wednesday":
+                System.out.println("Wednesday is my free day! I can play online games and do my hobbies ^^!");
+                break;
+            case "thursday":
+                System.out.println("Back with online classes, hayss.");
+                break;
+            case "friday":
+                System.out.println("I will attend my online classes.");
+                break;
+            case "Saturday":
+                System.out.println(" It's my workout day!");
+                break;
+            case "Sunday":
+                System.out.println("It's my me day :))");
+                break;
+            default:
+                 System.out.println("Incorrect day.");
+                break;
+        }
+
+    }
+}
