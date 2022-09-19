@@ -1,0 +1,51 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Conditional Structure
+        boolean ihaveNoMoney = false;
+
+        if (ihaveNoMoney) {
+            System.out.println("Ask your parents to drive you to NU");
+        } else {
+            // Step 1
+            rideJeep();
+
+            // Step 2
+            rideBus();
+
+            // Step 3
+            rideLRT();
+
+            // Step 4
+            rideTricycle();
+
+            // Step 5
+            walk();
+        }
+
+    }
+
+    static void rideJeep() {
+        System.out.println("I will walk and go to my friend's house.");
+        System.out.println("I will ride a tricycle to Savemore.");
+    }
+
+    static void rideBus() {
+        System.out.println("I will walk to jeep stations.");
+        System.out.println("I will ride a jeep going to Anonas station.");
+    }
+
+    static void rideLRT() {
+        System.out.println("I will grab a ticket on Anonas Station.");
+        System.out.println("I will ride the LRT and stop to Legarda Station.");
+    }
+
+    static void rideTricycle() {
+        System.out.println("I will walk for 3 minutes to NU.");
+        System.out.println("I will fill up the form and entry the school.");
+    }
+
+    static void walk() {
+        System.out.println("Go to 4th floor.");
+    }
+}
