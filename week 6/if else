@@ -2,10 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Conditional Structure
-        boolean ihaveNoMoney = false;
+        boolean suspended = false;
 
-        if (ihaveNoMoney) {
-            System.out.println("Ask your parents to drive you to NU");
+        if (suspended) {
+            System.out.println("I will stay at home.");
         } else {
             // Step 1
             rideJeep();
